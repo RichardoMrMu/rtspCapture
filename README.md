@@ -1,3 +1,13 @@
+# ScreenCapture
+
+## Use
+```shell
+mkdir build
+cmake ..
+make 
+./test
+```
+
 this project tests opencv capture hikvision video stream like :
 ```shell
 rtsp://[username]:[password]@[ip]:[port]/[codec]/[channel]/[subtype]/av_stream
